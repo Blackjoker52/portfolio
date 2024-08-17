@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiqual Solutions</title>
+    <link rel="stylesheet" href="./src/output.css">
+
+    <!-- Font Awesome -->
+    <link href="./fontawsome/css/fontawesome.css" rel="stylesheet">
+    <link href="./fontawsome/css/brands.css" rel="stylesheet">
+    <link href="./fontawsome/css/solid.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.7.5/build/player/lottie.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+
+</head>
+<style>
+    * {
+        cursor: url('./images/cursor.svg') 0 0, auto;
+    }
+    a {
+        cursor: url('./images/cursor.svg'), auto;
+    }
+</style>
+<body class="bg-custom bg-[#202020] text-white flex flex-col justify-center items-center font-poppins">
+<!-- <body class="bg-custom bg-[#101010] text-white flex flex-col justify-center items-center font-poppins "> -->
+    <!-- <body class="bg-custom bg-[#0A0A0A] text-white flex flex-col justify-center items-center font-poppins "> -->
+
+    <!-- Navigation Bar -->
+    <nav id="bg-color"
+        class="sticky max-w-[1600px] m-auto top-0 left-0 z-10 flex justify-between items-center px-8 py-4 sm:py-8 w-full backdrop-blur-xl">
+        <a href="#home" class="max-w-[50%]">
+            <img src="./images/Union.svg" alt="Logo">
+        </a>
+
+        <!-- Nav-links -->
+        <ul class="nav-links w-full lg:w-auto">
+            <li class="nav-link "><a href="#about-us">About us</a></li>
+            <li class="nav-link"><a href="#services">Services</a></li>
+            <li class="nav-link"><a href="#projects">Project</a></li>
+            <li class="nav-link"><a href="#testimonials">Testimonials</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="https://calendly.com/hiqualsoftwaresolutions/30min"
+            class="btn-home hidden lg:flex !text-base border-t !border-blue-400">
+            Book A Call
+        </a>
+
+        <!-- Hamburger menu for smaller devices -->
+        <a href="javascript:void(0);" class="hamburger flex lg:hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </nav>
+
+
+    <!-- HOME -->
+    <div id="home" class="flex flex-col lg:flex-row lg:gap-16 h-[500px] justify-center items-center gap-16 overflow-hidden">
+        <div class="flex flex-col gap-4 items-center ">
+            <!-- <div 
+                class="absolute w-[20%] aspect-square bg-purple-400/40 top-0 left-0 translate-x-[-20%] translate-y-[-20%] blur-3xl rounded-full -z-10">
+            </div>
+
+            <div 
+                class="absolute w-[20%] aspect-square bg-cyan-400/40 bottom-0 right-0 translate-y-[20%] blur-3xl rounded-full -z-10">
+            </div> -->
+            
+            <h1 class="text-4xl md:text-6xl text-center">
+                <span class="text-lg">
+                    Hi, I'm 
+                </span> <br>
+                <span class="relative text-center gradient-text !font-poppins !not-italic">
+                    Zishan Kadri
+                </span>
+                
+            </h1>
+            <div class="fixed-size">
+                <p class="text-2xl md:text-4xl font-thin text-center w-[30ch] max-w-[30ch] lg:w-[50ch] lg:max-w-[50ch]" id="typing-effect">
+                    Full-Stack Developer
+                </p>
+            </div>
+
+            <div class="relative flex gap-8 pt-4 md:pt-12">
+                <a href="#contact" class="group btn-primary !flex justify-center items-center">
+                    <span class="text"> Contact </span>
+                    <span class="translate-x-2" > <i class="fa-solid fa-chevron-right group-hover:translate-x-2 duration-200 text-xs text-white ml-2"> </i></span>
+                </a>
+
+                <a href="https://calendly.com/hiqualsoftwaresolutions/30min"
+                    class="btn-home !text-base border-t w-full !border-blue-400">
+                    Book A Call
+                </a>
+                <img src="./images/arrow.png" alt="" class="absolute top-8 right-0 translate-x-32 sm:translate-x-40 translate-y-12 rotate-12 h-8 ">
+            </div>
+        </div>
+
+    </div> <!-- HOME -->
+
+
+
+    <!-- About Us  -->
+    <div id="about-us" class="home-container  pt-20">
+        <div class="text-center">
+            <h1 class="heading">
+                About <span class="gradient-text">me</span>
+            </h1>
+        </div>
+        <div class="mt-12 flex flex-col lg:flex-row items-start gap-8 rounded-3xl p-8 md:p-16">
+            <div class="md:text-lg text-justify max-w-[50ch]">
+                <h1 class="font-semibold md:text-xl pt-2 leading-relaxed ">
+                    ● Introduction
+                </h1>
+                <p class="my-4">
+                    I'm Zishan Kadri a 17-year-old full stack web developer. <br>
+                    With a 5-⭐ rating as a freelancer, I specialize in building robust and scalable web applications using modern technologies, 
+                    Currently available for job opportunities to quit freelancing.
+                    <br><br>                    
+                    I have a strong passion for learning new technologies and keep myself up to date with the latest industry trends and best practices.
+                    If you want to hire a skilled developer, want guidance regarding your tech journey, or just wanna chat, contact me.
+
+                </p>
+                <a href="#contact" class="group btn-primary mt-4">
+                    <span class="text"> Contact </span>
+                    <span class="translate-x-2" > <i class="fa-solid fa-chevron-right group-hover:translate-x-2 duration-200 text-xs text-white ml-2"> </i></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Technologies -->
+    <div class="home-container pt-60 relative flex flex-col sm:flex-row-reverse gap-8 w-full items-start">
+        <div class="flex flex-col items-center sm:block sm:w-[40%]">
+            <h1 class="text-3xl sm:text-4xl"> 
+                <span class="gradient-text ">Technologies</span> I Use
+            </h1>
+            <p class="text-gray-400 mt-4 text-center sm:text-start">Discover the advanced technologies that drive my solutions, ensuring performance, reliability, and innovation.</p>
+            <a href="#projects" class="group btn-primary btn-23 inline-block mt-16">
+                <span class="text">Projects </span>
+                <span > <i class="fa-solid fa-chevron-right group-hover:translate-x-2 duration-200 text-xs text-gray-400 ml-2"> </i></span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
+            <div class="tech-card">
+                <img src="./images/skills/django-logo.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/nodejs.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/react.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/git.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/mysql.png" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/postgres.png" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/tailwindcss.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/scikit.svg" alt="">
+            </div>
+            <div class="tech-card"> 
+                <img src="./images/skills/angular.png" alt="">
+            </div>
+            <div class="tech-card sm:hidden"> 
+                <img src="./images/skills/docker.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Reasonse you will love us -->
+    <div class="relative home-container pt-60">
+        <div class="flex-col service-box">
+            <div class="text-center">
+                <h1 class="heading">
+                    Reasonse you will <span class="gradient-text">love</span> my work
+                </h1>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 mt-12 gap-5">
+            <!-- diamond -->
+            <div class="box">
+                <img src="images/diamond-dark-mode--unscreen.gif" alt="">
+                <div>
+                    <h2 class="text-2xl">Top-notch quality</h2>
+                </div>
+                <div>
+                    <p>
+                        HiQual Solutions delivers excellence in every project, ensuring top-tier results through meticulous attention to detail and innovative solutions.
+                    </p>
+                </div>
+            </div>
+
+            <!-- clock -->
+            <div class="box">
+                <img src="images/clock-ldark-mode-unscreen.gif" alt="">
+                <div>
+                    <h2 class="text-2xl">Lightning fast delivery</h2>
+                </div>
+                <div>
+                    <p>
+                        We ensure your projects are completed swiftly without compromising quality. Expect prompt, efficient service every time.
+                    </p>
+                </div>
+            </div>
+
+            <!-- drop -->
+            <div class="box">
+                <img src="images/drop-dark-mode-unscreen.gif" alt="">
+                <div>
+                    <h2 class="text-2xl">Fixed monthly rate</h2>
+                </div>
+                <div>
+                    <p>
+                        high-quality services at a predictable, fixed monthly rate. Enjoy peace of mind with no hidden fees or surprises.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- PROJECT -->
+    <div class="home-container pt-60 w-full">
+
+        <div class="!flex-col service-box" id="projects">
+            <div class="text-center">
+                <h1 class="heading">
+                    My <span class="gradient-text font-normal ">work</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-8 md:mt-12">
+
+            <div class="project-box group">
+                <div>
+                    <img src="images/projects/project1.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-box project-img ">
+                <div>
+                    <img src="images/projects/project2.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-box project-img ">
+                <div>
+                    <img src="images/projects/project3.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-box !hidden lg:!flex">
+                <div>
+                    <img src="images/projects/project4.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-box !hidden lg:!flex ">
+                <div>
+                    <img src="images/projects/project5.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-box !hidden lg:!flex">
+                <div>
+                    <img src="images/projects/project6.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="home-container pt-60" id="testimonials">
+
+        <!-- <h3 class="text-4xl mb-6 md:mb-8 text-center headings-weight text-dark-100 dark:text-grey-500"> -->
+        <!-- </h3> -->
+        <div class="!flex-col service-box mb-12" id="projects">
+            <div class="text-center">
+                <h1 class="heading">
+                    <span class="gradient-text font-normal">What they say</span>
+                    about us
+                </h1>
+            </div>
+        </div>
+    
+        <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+
+        <script type="module">
+            import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
+
+            const keenSlider = new KeenSlider(
+                '#keen-slider',
+                {
+                    loop: true,
+                    slides: {
+                        origin: 'center',
+                        perView: 1.25,
+                        spacing: 16,
+                    },
+                    breakpoints: {
+                        '(min-width: 1024px)': {
+                            slides: {
+                                origin: 'auto',
+                                perView: 1.5,
+                                spacing: 32,
+                            },
+                        },
+                    },
+                },
+                []
+            )
+
+            const keenSliderPrevious = document.getElementById('keen-slider-previous')
+            const keenSliderNext = document.getElementById('keen-slider-next')
+
+            const keenSliderPreviousDesktop = document.getElementById(
+                'keen-slider-previous-desktop'
+            )
+            const keenSliderNextDesktop = document.getElementById(
+                'keen-slider-next-desktop'
+            )
+
+            keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
+            keenSliderNext.addEventListener('click', () => keenSlider.next())
+
+            keenSliderPreviousDesktop.addEventListener('click', () => keenSlider.prev())
+            keenSliderNextDesktop.addEventListener('click', () => keenSlider.next())
+        </script>
+
+        <section class="rounded-xl text-white  ">
+            <div
+                class="mx-auto max-w-[1340px] px-4 py-8 sm:px-6 lg:me-0 lg:py14 lg:pe-0 lg:ps-8 xl:py-22 overflow-hidden">
+                <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-16">
+
+                    <div class="-mx-6 lg:col-span-2 lg:mx-0">
+                        <div id="keen-slider" class="keen-slider">
+                            <!-- 1st testimonial -->
+                            <div class="keen-slider__slide">
+                                <blockquote
+                                    class="flex h-full flex-col bg-white/10 justify-between p-6 shadow-sm sm:p-8 lg:p-12 rounded-lg">
+                                    <div>
+                                        <div class="flex gap-0.5 text-cyan-400">
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <p class="text-2xl font-bold sm:text-3xl">
+                                                Outstanding Service and Results
+                                            </p>
+
+                                            <p class="mt-4 leading-relaxed text-gray-400">
+                                                Our experience with HiQual Solutions has been exceptional.
+                                                Their team's dedication to quality and professionalism
+                                                is evident in every project they undertake. From website design to digital marketing, they consistently deliver results that exceed our expectations.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <footer class="mt-4 text-sm font-medium text-gray-400 sm:mt-6">
+                                        &mdash; Aarav Sharma
+                                    </footer>
+                                </blockquote>
+                            </div>
+
+                            <!-- 2nd testimonial -->
+                            <div class="keen-slider__slide">
+                                <blockquote
+                                    class="flex h-full flex-col bg-white/10 justify-between p-6 shadow-sm sm:p-8 lg:p-12 rounded-lg">
+                                    <div>
+                                        <div class="flex gap-0.5 text-cyan-400">
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <p class="text-2xl font-bold sm:text-3xl">
+                                                Transformed Our Online Presence!
+                                            </p>
+
+                                            <p class="mt-4 leading-relaxed text-gray-400">
+                                                HiQual Media transformed our online presence with their
+                                                innovative approach to web development. Their commitment
+                                                to customer satisfaction and technical expertise made them
+                                                a valuable partner for our business
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <footer class="mt-4 text-sm font-medium text-gray-400 sm:mt-6">
+                                        &mdash; Rohit Mehta
+                                    </footer>
+                                </blockquote>
+                            </div>
+
+                            <!-- 3rd testimonial -->
+                            <div class="keen-slider__slide">
+                                <blockquote
+                                    class="flex h-full flex-col bg-white/10 justify-between p-6 shadow-sm sm:p-8 lg:p-12 rounded-lg">
+                                    <div>
+                                        <div class="flex gap-0.5 text-cyan-400">
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <p class="text-2xl font-bold sm:text-3xl">
+                                                Innovative Custom Chatbots
+                                            </p>
+
+                                            <p class="mt-4 leading-relaxed text-gray-400">
+                                                The custom chatbots developed by this service have
+                                                revolutionized our customer interaction. They are
+                                                intelligent, efficient, and have greatly enhanced our customer support experience. The implementation was seamless, and the results have been phenomenal.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <footer class="mt-4 text-sm font-medium text-gray-400 sm:mt-6">
+                                        &mdash; Rohan Verma
+                                    </footer>
+                                </blockquote>
+                            </div>
+
+                            <!-- 4th testimonial -->
+                            <div class="keen-slider__slide">
+                                <blockquote
+                                    class="flex h-full flex-col bg-white/10 justify-between p-6 shadow-sm sm:p-8 lg:p-12 rounded-lg">
+                                    <div>
+                                        <div class="flex gap-0.5 text-cyan-400">
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+
+                                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <p class="text-2xl font-bold sm:text-3xl">
+                                                Reliable Website Management
+                                            </p>
+
+                                            <p class="mt-4 leading-relaxed text-gray-400">
+                                                Their website management services have been a lifesaver for
+                                                us. We can now focus on our core business while they
+                                                ensure our website runs smoothly and efficiently.
+                                                Their prompt support and proactive approach to website maintenance are truly impressive.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <footer class="mt-4 text-sm font-medium text-gray-400 sm:mt-6">
+                                        &mdash; Ananya Gupta
+                                    </footer>
+                                </blockquote>
+                            </div>
+
+
+                        </div> <!-- Testimonial List -->
+                    </div>
+                </div>
+
+                <div class="mt-8 flex justify-center gap-4 lg:hidden">
+                    <button aria-label="Previous slide" id="keen-slider-previous"
+                        class="rounded-full border border-brand-light p-3 text-brand-light transition hover:bg-brand-light hover:text-white">
+                        <svg class="h-5 w-5 -rotate-180 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </button>
+
+                    <button aria-label="Next slide" id="keen-slider-next"
+                        class="rounded-full border border-brand-light p-3 text-brand-light transition hover:bg-brand-light hover:text-white">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+    </div> <!-- Testimonials -->
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="pt-60">
+        <div
+            class="contact bg-gray-200 text-gray-700 rounded-3xl px-6 md:px-8 lg:px-10 w-full py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center gap-10">
+            <h3
+                class="text-center text-grey-700 max-w-[1011px] text-3xl md:text-6xl font-medium leading-tight">
+                Have an Idea??... Let's Turn It into Reality with Our Expert Development Team!!
+            </h3>
+            <a rel="noreferrer" href="https://calendly.com/hiqualsoftwaresolutions/30min"
+                class="group btn-primary !bg-black/70 hover:!bg-black/80">
+                Book a Call
+                <span> <i class="fa-solid fa-chevron-right group-hover:translate-x-2 duration-200 text-xs text-gray-400 ml-2"> </i></span>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="home-container w-full">
+        <footer class="bg-brand-dark">
+            <div class="flex flex-col sm:flex-row w-full p-4 sm:p-8 justify-between mt-8 h-full">
+                <a href="/" class="flex items-center self-center max-w-[20%]"> <img src="./images/logo.png" alt="" class=""> </a>
+    
+                <ul class="flex flex-col gap-2 font-light">
+                    <h2 class="font-medium">Pages</h2>
+    
+                    <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#about-me">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#services">Services</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#projects">Project</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#testimonials">Testimonial</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+    
+                </ul>
+    
+                <div class="flex flex-col gap-4 font-light pt-8 sm:p-0">
+                    <h2 class="font-medium">Contact</h2>
+                    <div> <i class="fa-solid fa-phone w-6 text-center"></i> +91 9867975473 </div>
+                    <div> <i class="fa-solid fa-envelope w-6 text-center"></i> contact@hiqualsolutions.com </div>
+                    <div> <i class="fa-solid fa-location-dot w-6 text-center"></i> Mumbai, Maharashtra, India </div>
+                </div>
+    
+                <div class="flex gap-2 h-full mt-auto pt-8 sm:p-0">
+                    <a href="https://www.instagram.com/" class="text-2xl hover:bg-gray-800 border border-gray-700 aspect-square w-14 rounded-full flex justify-center items-center">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="text-2xl hover:bg-gray-800 border border-gray-700 aspect-square w-14 rounded-full flex justify-center items-center">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-center">
+                <p class="text-center text-gray-400">
+                    &copy;2024 Hiqual Solutions | All Rights Reserved
+                </p>
+            </div>
+        </footer>        
+    </div>
+    <!-- FOOTER -->
+
+    <script>
+        // typing effect
+        function typeWriter(textElement, text, speed) {
+            let i = 0;
+
+            function type() {
+                if (i < text.length) {
+                    textElement.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                } else {
+                    // i = 0;
+                    // textElement.textContent = ''; // Reset the text content
+                    // setTimeout(type, speed); // Start typing again after resetting
+                }
+            }
+
+            // Start the typing function initially
+            type();
+        }
+
+        const textElement = document.getElementById('typing-effect');
+        const text = textElement.textContent.trim(); // Get the text content and trim whitespace
+        textElement.textContent = ''; // Clear initial text
+
+        // Call the typing function with your desired speed (adjust speed as needed)
+        typeWriter(textElement, text, 20); // Speed in milliseconds (e.g., 100ms)
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.getElementsByClassName("hamburger")[0];
+            const navLinks = document.getElementsByClassName("nav-links")[0];
+            const navLinkItems = document.querySelectorAll('.nav-link a');
+
+            hamburger.addEventListener('click', function () {
+                if (navLinks.style.display === "none" || navLinks.style.display === "") {
+                    navLinks.style.display = "flex";
+                } else {
+                    navLinks.style.display = "none";
+                }
+            });
+
+            navLinkItems.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault(); // Prevent the default behavior
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                    var style = window.getComputedStyle(navLinks);
+                    if (style.flexDirection === 'column') {
+                        navLinks.style.display = "none";
+                    }
+                });
+            });
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
